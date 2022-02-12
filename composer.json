@@ -1,0 +1,21 @@
+{
+    "name": "guilherme/chat",
+    "description": "Aprendizado Programacao com web socket",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Guilherme",
+            "email": "guilhermecc0@hotmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chat\\": "src"
+        }
+    }
+}
